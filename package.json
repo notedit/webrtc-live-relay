@@ -1,0 +1,24 @@
+{
+  "name": "webrtc-live-relay",
+  "version": "1.0.0",
+  "description": "webrtc live relay from another webrtc media server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notedit/webrtc-live-relay.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/notedit/webrtc-live-relay/issues"
+  },
+  "homepage": "https://github.com/notedit/webrtc-live-relay#readme",
+  "dependencies": {
+    "got": "^10.7.0",
+    "medooze-media-server": "^0.87.0",
+    "node-fetch": "^2.6.0"
+  }
+}
