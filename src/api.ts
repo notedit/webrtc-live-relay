@@ -71,7 +71,7 @@ apiRouter.post('/rtc/v1/play', async (req: Request, res: Response) => {
 		json: {
             sdp: remoteOffer.toString(),
             streamurl: streamurl,
-            api: "http://10.170.155.12:1980/rtc/v1/play"
+            api: "http://10.170.155.12:1985/rtc/v1/play"
 		},
 		responseType: 'json'
     })

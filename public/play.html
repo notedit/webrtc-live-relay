@@ -68,7 +68,7 @@
 
             console.dir(ret)
 
-            const { sdp, sessionid } = ret.d
+            const { sdp, sessionid } = ret
 
             let answer = new RTCSessionDescription({
                 type: 'answer',
